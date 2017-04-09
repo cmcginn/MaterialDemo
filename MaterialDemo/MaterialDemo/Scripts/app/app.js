@@ -15,6 +15,12 @@ angular.module('myApp')
                     url: '/home',
                     templateUrl: '/scripts/app/views/home.html',
                     controller: 'homeController'
+                })
+                .state('layout-demo',
+                {
+                    url:'/layout-demo',
+                    templateUrl: '/scripts/app/views/layout-demo.html',
+                    controller:'layoutDemoController'
                 });
 
         }

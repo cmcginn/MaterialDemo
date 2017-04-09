@@ -7,9 +7,10 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     @Styles.Render("~/Content/angular")
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
 </head>
-<body>
+<body ng-cloak layout="column">
     @RenderBody()
 
     @Scripts.Render("~/bundles/jquery")

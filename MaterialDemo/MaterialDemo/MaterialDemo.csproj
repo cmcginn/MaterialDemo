@@ -248,7 +248,9 @@
     <Content Include="Scripts\angular\angular.min.js" />
     <Content Include="Scripts\app\app.js" />
     <Content Include="Scripts\app\controllers\home-controller.js" />
+    <Content Include="Scripts\app\controllers\layout-demo-controller.js" />
     <Content Include="Scripts\app\views\home.html" />
+    <Content Include="Scripts\app\views\layout-demo.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">

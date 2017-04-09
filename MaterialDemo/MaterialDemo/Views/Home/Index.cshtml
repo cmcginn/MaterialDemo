@@ -1,1 +1,20 @@
-﻿<div ng-view ui-view="" flex></div>
+﻿<md-toolbar layout="row" class="md-toolbar-tools">
+    <a ui-sref="layout-demo">Layout</a>
+</md-toolbar>
+
+
+
+
+<div flex layout="row">
+
+    <!-- Container #3 -->
+    @*<md-sidenav md-is-locked-open="true" class="md-whiteframe-4dp">
+        Sidenav
+    </md-sidenav>*@
+
+    <!-- Container #4 -->
+    <md-content flex id="content">
+        <div ng-view ui-view="" flex></div>
+    </md-content>
+
+</div>
